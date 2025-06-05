@@ -4,7 +4,7 @@ from scraper.html_loader import HTMLLoader
 from scraper.data_extractor import DataExtractor
 from scraper.dom_analyzer import DOMAnalyzer
 from storage.mongo_storage import MongoStorage
-from storage.neo4j_storage import Neo4jStorage
+# from storage.neo4j_storage import Neo4jStorage
 from config.settings import settings
 
 class WebScrapingOrchestrator:
@@ -57,7 +57,7 @@ class WebScrapingOrchestrator:
             #     dom_structure
             # )
             
-            print("✓ Relationships stored in Neo4j")
+            # print("✓ Relationships stored in Neo4j")
             
             # Return LLM-ready summary
             return {
