@@ -1,0 +1,16 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+playwright==1.40.0
+beautifulsoup4==4.12.2
+pymongo==4.6.0
+neo4j==5.15.0
+pydantic==2.5.2
+python-multipart==0.0.6
+aiofiles==23.2.1
+requests==2.31.0
+lxml==4.9.3
+newspaper3k==0.2.8
+readability-lxml==0.8.1
+python-dotenv==1.0.0
+nltk==3.8.1
+spacy==3.7.2
